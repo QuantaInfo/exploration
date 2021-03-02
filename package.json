@@ -1,0 +1,38 @@
+{
+  "name": "exploration",
+  "version": "1.0.0",
+  "description": "A blog site dedicated to my exploration of Mathematics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier-format":"prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagnik-chatterjee/exploration.git"
+  },
+  "keywords": [
+    "blog",
+    "maths"
+  ],
+  "author": "Sagnik Chatterjee",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/sagnik-chatterjee/exploration/issues"
+  },
+  "homepage": "https://github.com/sagnik-chatterjee/exploration#readme",
+  "dependencies": {
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.2"
+  }
+}
